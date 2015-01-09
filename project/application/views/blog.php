@@ -131,7 +131,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						        	<div class="artical-content">
 									<h3><a href="#"><?= $value['subject'];?></a></h3>
 									<p>Published times[<?=date('d-m-Y H:i:s', strtotime($value['created_at']));?>]</p>
-									<p><?= $value['message'];?></p>
+									<p><pre style="word-wrap: break-word;"><?= $value['message'];?></pre></p>
 								    </div>
 								   	<?php } ?>
 							

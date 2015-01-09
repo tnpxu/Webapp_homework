@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			        		<div class="post-basic-info">
 				        		<h3><a href="#"><?= $value['subject'] ;?></a></h3>
 				        		<span><a href="#"><label> </label><?= $value['type'] ;?></a></span>
-				        		<p><?php 
+				        		<p style="word-wrap: break-word;"><?php 
 				        		if(strlen($value['message']) < 40)
 				        		{
 				        			echo $value['message'];
